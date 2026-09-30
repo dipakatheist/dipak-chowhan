@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A little apology for Hina, with love from Dipak.">
+  <meta name="description" content="A little apology for Hina, with love from Tklu.">
   <title>For Hina, with love</title>
   <style>
     :root {
@@ -13,7 +13,6 @@
       --rose-dark: #ba6378;
       --blush: #fff3f3;
       --cream: #fffaf5;
-      --lavender: #f0e8f5;
       --white: #fffdfc;
       font-family: "Trebuchet MS", ui-sans-serif, system-ui, sans-serif;
     }
@@ -65,9 +64,9 @@
     }
 
     section { padding: 100px 0; }
-    .letter, .reasons, .moment, .final { position: relative; }
+    .letter, .moment, .final { position: relative; }
     section > .wrap { position: relative; z-index: 1; }
-    .letter .photo-link, .reasons .photo-link, .moment .photo-link { width: clamp(76px, 8vw, 110px); }
+    .letter .photo-link, .moment .photo-link { width: clamp(76px, 8vw, 110px); }
     .letter { background: var(--white); }
     .letter .photo-link:nth-child(1) { left: 0; top: -48px; rotate: -9deg; }
     .letter .photo-link:nth-child(2) { right: 1%; bottom: -50px; rotate: 8deg; }
@@ -79,16 +78,6 @@
     .letter-card::before { content: "♥"; position: absolute; top: 17px; right: 23px; color: var(--rose); font-size: 1.35rem; }
     .letter-card p { color: var(--ink); font-family: Georgia, serif; font-size: 1.14rem; line-height: 1.8; }
     .signature { margin-top: 22px; color: var(--rose-dark); font-family: Georgia, serif; font-size: 1.6rem; font-style: italic; }
-
-    .reasons { background: var(--lavender); text-align: center; }
-    .reasons .photo-link:nth-child(1) { left: 0; top: -48px; rotate: 9deg; }
-    .reasons .photo-link:nth-child(2) { right: 1%; bottom: -50px; rotate: -8deg; }
-    .reasons > .wrap > p { max-width: 480px; margin: 0 auto; color: var(--muted); }
-    .reason-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; margin-top: 45px; text-align: left; }
-    .reason { min-height: 205px; padding: 27px; background: rgba(255,255,255,.65); border-radius: 22px; }
-    .reason-icon { color: var(--rose-dark); font-size: 1.65rem; }
-    .reason h3 { margin: 19px 0 7px; font-family: Georgia, serif; font-size: 1.3rem; font-weight: 400; }
-    .reason p { margin: 0; color: var(--muted); font-size: .9rem; }
 
     .moment { background: var(--cream); text-align: center; }
     .moment .photo-link:nth-child(1) { left: 0; top: -42px; rotate: -9deg; }
@@ -131,20 +120,18 @@
       .hero-heart { margin: 24px auto 0; }
       .photo-link { width: 58px; border-width: 3px; }
       .hero .photo-link { width: clamp(60px, 19vw, 74px); }
-      .letter .photo-link, .reasons .photo-link, .moment .photo-link { width: clamp(58px, 17vw, 64px); }
+      .letter .photo-link, .moment .photo-link { width: clamp(58px, 17vw, 64px); }
       .final .photo-link { width: clamp(70px, 20vw, 78px); }
       .hero .photo-link:nth-child(1) { left: 5%; top: 10%; }
       .hero .photo-link:nth-child(2) { right: 5%; top: 10%; }
       .hero .photo-link:nth-child(3) { left: 9%; bottom: 6%; }
       .hero .photo-link:nth-child(4) { right: 9%; bottom: 6%; }
       .letter .photo-link:nth-child(1) { left: 5%; top: -12px; }
-      .letter .photo-link:nth-child(2), .reasons .photo-link:nth-child(2) { right: 5%; bottom: -20px; }
-      .reasons .photo-link:nth-child(1) { left: 5%; top: -12px; }
+      .letter .photo-link:nth-child(2) { right: 5%; bottom: -20px; }
       .moment .photo-link:nth-child(1) { left: 5%; top: -15px; }
       .final .photo-link:nth-child(1) { right: 5%; top: -4px; }
       .letter-grid { grid-template-columns: 1fr; gap: 38px; }
       .letter-card { transform: rotate(0); padding: 30px 25px; }
-      .reason-grid { grid-template-columns: 1fr; }
       .nav-links { gap: 12px; }
       section { padding: 75px 0; }
     }
@@ -199,26 +186,9 @@
       </div>
     </section>
 
-    <section class="reasons">
-      <div class="photo-floats" aria-label="More photo memories">
-        <a class="photo-link" href="photo/1790764418896.png" aria-label="Open photo memory 7"><img src="photo/1790764418896.png" alt="A photo from our memories, 7" loading="lazy" decoding="async"></a>
-        <a class="photo-link" href="photo/1790764418922.jpg" aria-label="Open photo memory 8"><img src="photo/1790764418922.jpg" alt="A photo from our memories, 8" loading="lazy" decoding="async"></a>
-      </div>
-      <div class="wrap">
-        <div class="section-label">Things I never want you to forget</div>
-        <h2>Why you are <em>irreplaceable.</em></h2>
-        <p>Even when I am being an idiot, these things stay completely true.</p>
-        <div class="reason-grid">
-          <article class="reason"><div class="reason-icon">✦</div><h3>Your beautiful heart</h3><p>You care so deeply, and the world is softer and better because you do.</p></article>
-          <article class="reason"><div class="reason-icon">☀</div><h3>Your way of lighting up a room</h3><p>Your laugh is one of my favourite sounds, even when I pretend it is not.</p></article>
-          <article class="reason"><div class="reason-icon">∞</div><h3>The way you are you</h3><p>There is only one Hina. I never want to take that incredible person for granted.</p></article>
-        </div>
-      </div>
-    </section>
-
     <section class="moment">
       <div class="photo-floats" aria-label="More photo memories">
-        <a class="photo-link" href="photo/1790764418950.jpg" aria-label="Open photo memory 9"><img src="photo/1790764418950.jpg" alt="A photo from our memories, 9" loading="lazy" decoding="async"></a>
+        <a class="photo-link" href="photo/1790764418950.jpg" aria-label="Open photo memory 7"><img src="photo/1790764418950.jpg" alt="A photo from our memories, 7" loading="lazy" decoding="async"></a>
       </div>
       <div class="wrap">
         <div class="section-label">When you are ready</div>
@@ -235,7 +205,7 @@
 
     <section class="final">
       <div class="photo-floats" aria-label="More photo memories">
-        <a class="photo-link" href="photo/1790764418973.jpg" aria-label="Open photo memory 10"><img src="photo/1790764418973.jpg" alt="A photo from our memories, 10" loading="lazy" decoding="async"></a>
+        <a class="photo-link" href="photo/1790764418973.jpg" aria-label="Open photo memory 8"><img src="photo/1790764418973.jpg" alt="A photo from our memories, 8" loading="lazy" decoding="async"></a>
       </div>
       <div class="wrap">
         <div class="section-label">One last thing</div>
